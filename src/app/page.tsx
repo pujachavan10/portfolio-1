@@ -23,7 +23,7 @@ export default function Page() {
                   delay={BLUR_FADE_DELAY}
                   className="text-4xl font-bold tracking-tighter sm:text-6xl xl:text-7xl/none"
                   yOffset={8}
-                  text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
+                  text={`Hi, I'm ${DATA.name.split(" ")[0]}`}
                 />
                 <BlurFadeText
                   className="max-w-[600px] md:text-2xl"
@@ -32,7 +32,7 @@ export default function Page() {
                 />
               </div>
               <BlurFade delay={BLUR_FADE_DELAY}>
-                <Avatar className="size-32 border translate-x-6">
+                <Avatar className="size-32 border">
                   <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                   <AvatarFallback>{DATA.initials}</AvatarFallback>
                 </Avatar>
