@@ -183,6 +183,68 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "RecoFlix",
+      href: "https://recoflix.streamlit.app/",
+      dates: "2026",
+      active: true,
+      description:
+        "Developed a machine-learning based movie recommendation system using content-based filtering. Built the full pipeline including data preprocessing, vectorization, similarity computation, and an interactive web interface to deliver real-time personalized movie suggestions.",
+      technologies: [
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "NLTK",
+        "Cosine Similarity",
+        "Streamlit",
+        "TMDB API",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://recoflix.streamlit.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/pujachavan10/recoflix",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/ss.png",
+      video: "",
+    },
+    {
+      title: "Chatify",
+      href: "https://whatsapp-chat-analyzer-x50o.onrender.com/",
+      dates: "2025",
+      active: true,
+      description:
+        "Built an end-to-end data analysis tool to extract insights from exported WhatsApp chats. The app processes raw text data to generate statistics such as message frequency, most active users, word usage, emojis, timelines, and activity patterns using Python and data visualization libraries.",
+      technologies: [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "Streamlit",
+        "Regex",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://whatsapp-chat-analyzer-x50o.onrender.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/pujachavan10/whatsapp-chat-analyzer",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/ss1.png",
+      video: "",
+    },
+    {
       title: "Chat Collect",
       href: "https://chatcollect.com",
       dates: "Jan 2024 - Feb 2024",
